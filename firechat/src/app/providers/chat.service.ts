@@ -35,10 +35,19 @@ export class ChatService {
      }
 
 
-  login( proveedro:string) {
-    this.afAuth.signInWithPopup(new firebase.auth.GoogleAuthProvider());
+  login( proveedor:string) {
+       if(proveedor ==='google'){
+        this.afAuth.signInWithPopup(new firebase.auth.GoogleAuthProvider());
+       }else{
+        if(proveedor ==='twitter'){
+          this.afAuth.signInWithPopup(new firebase.auth.TwitterAuthProvider());
+         }
+
+       }
+
   }
   logout() {
+    this.usuario = {};
     this.afAuth.signOut();
   }
 
