@@ -1,12 +1,22 @@
 export const environment = {
   production: false,
-  firebase: {
-  apiKey: "AIzaSyCHEJyzpnMzNCDS0_G5cN831oV1a345WhM",
-  authDomain: "firechat-e48d7.firebaseapp.com",
-  projectId: "firechat-e48d7",
-  storageBucket: "firechat-e48d7.appspot.com",
-  messagingSenderId: "763611716302",
-  appId: "1:763611716302:web:78dc55d2861e5cf2648e9f",
-  measurementId: "G-SC37DBL141"
-    }
-  };
+  firebase:{apiKey: "AIzaSyCRo2Eq4RhPmW0mzZEf3raJ6-5b-XHHhx0",
+
+  authDomain: "firechat-c4bdf.firebaseapp.com",
+
+  projectId: "firechat-c4bdf",
+
+  storageBucket: "firechat-c4bdf.appspot.com",
+
+  messagingSenderId: "325426550305",
+
+  appId: "1:325426550305:web:42b28d07e3bc5983a63560",
+
+  measurementId: "G-J7N6TFKCKQ"
+
+
+
+
+
+},
+};
